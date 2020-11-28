@@ -127,4 +127,4 @@ STATICFILES_DIRS = [
 
 ]
 
-STATIC_ROOTS = os.path.join(BASE_DIR, 'assests')
+STATIC_ROOT = os.path.join(BASE_DIR, 'assests')
