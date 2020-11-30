@@ -142,14 +142,14 @@
 				{% for dest in dests  %}
 					<div class="col-md-4 col-sm-4 fh5co-item-wrap">
 						<a class="fh5co-listing-item">
-							<img src="{{baseUrl}}/{{dest.img}}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+							<img src="{{dest.img.url}}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
 							<div class="fh5co-listing-copy">
 								<h2>{{dest.name}}</h2>
 								<h3>$ {{dest.price}}</h3>
 								{% if dest.offer %}
 								<span class="icon">
 
-									<h3>SO</h3>
+									<h3 >SO</h3>
 									<i class="icon-chevron-right"></i>
 									{% endif %}
 								</span>
