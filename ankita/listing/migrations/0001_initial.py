@@ -12,12 +12,12 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Destination',
-            fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=100)),
-                ('img', models.ImageField(upload_to='images')),
-                ('offer', models.BooleanField(default=False)),
+            name = 'Destination',
+            fields = [
+                ('id', models.AutoField(auto_created = True, primary_key = True, serialize = False, verbose_name = 'ID')),
+                ('name', models.CharField(max_length = 100)),
+                ('img', models.ImageField(upload_to = 'images')),
+                ('offer', models.BooleanField(default = False)),
             ],
         ),
     ]

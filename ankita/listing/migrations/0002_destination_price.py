@@ -11,9 +11,9 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AddField(
-            model_name='destination',
-            name='price',
-            field=models.IntegerField(default=0),
-            preserve_default=False,
+            model_name = 'destination',
+            name = 'price',
+            field = models.IntegerField(default = 0),
+            preserve_default = False,
         ),
     ]
